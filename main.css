@@ -40,6 +40,10 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #690db4;
+}
+
 .mensagem-sucesso {
     text-transform: uppercase;
     color: #28753f;
@@ -48,7 +52,4 @@ button {
     display: none;
 }
 
-button:hover {
-    background-color: #690db4;
-}
 
