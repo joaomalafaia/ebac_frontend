@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Noto+Sans+Tamil&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Área de Cadastro</title>
+</head>
+<body>
+    <header>
+    <div class="container">
+        <h1>Barbie Box</h1>
+    </div>
+    </header>
+<section>
+    <div class="container">
+    <h2>Cadastre-se para receber a nossa caixa de surpresas!</h2>
+    <h3>Preencha os campos abaixo e garanta o seu ingresso e vários brindes para assistir ao filme Barbie em grande estilo!</h3>
+        <form>
+        <div class="form-unico">
+            <input type="text" id="nome-completo" name="nomeCompleto" placeholder="Nome completo"/>
+        </div>
+        <div class="form-duplo">
+            <input type="text" id="cpf" name="cpf"/>
+            <input type="email" id="e-mail" name="email" placeholder="E-mail"/>
+        </div>
+        <div class="form-duplo">
+            <input type="text" id="celular" name="celular"/>
+            <input type="text" id="cep" name="cep"/>
+        </div>
+        <div class="form-unico">
+            <input type="text" id="endereco" name="endereco" placeholder="Endereço completo"/>
+        </div>
+        <div class="form-duplo">
+            <input type="text" id="cidade" name="cidade" placeholder="Cidade"/>
+            <select id="estado" name="estado">  <!--peguei esse select no GitHub, deus abençoe o conhecimento compartilhado!!-->
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+        </div>
+            <button type="submit">Cadastrar-se</button>
+        </form>
+    </div>
+</section>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/jquery.mask.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/messages_pt_BR.min.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
