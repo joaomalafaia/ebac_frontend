@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário JS</title>
+    <link rel="stylesheet" href="../dev/styles/main.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Dados para cadastro</h1>
+        <form id="form-cadastro">
+            <input type="number" id="campo-A" required placeholder="Campo A"/>
+            <input type="number" id="campo-B" required placeholder="Campo B"/>
+            <p class="alerta-erro"><b>ATENÇÃO:</b> valor do Campo B <b>deve ser maior</b> que o campo A</p>
+            <button type="submit" id="btn-cadastrar">Cadastrar</button>
+        </form>
+        <p class="mensagem-sucesso">
+            Formulário enviado com sucesso
+        </p>
+    </div>
+    <script src="../src/scripts/main.js"></script>
+</body>
+</html>

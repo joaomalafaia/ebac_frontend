@@ -1,0 +1,57 @@
+@corBotao: #8e2edd;
+@corErro: rgb(204, 32, 32);
+@corSucesso: #28753f;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 450px;
+    width: 100%;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input, button {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button {
+    background-color: @corBotao;
+    border: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    
+    &:hover {
+        background-color: #690db4;
+    }
+}
+
+.alerta-erro {
+    margin-bottom: 8px;
+    font-size: 12px;
+    color: @corErro;
+    display: none;
+}
+
+.mensagem-sucesso {
+    text-transform: uppercase;
+    color: @corSucesso;
+    font-weight: bold;
+    font-size: 14px;
+    display: none;
+}
